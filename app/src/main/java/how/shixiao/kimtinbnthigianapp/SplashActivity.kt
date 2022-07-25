@@ -36,7 +36,7 @@ class SplashActivity : AppCompatActivity() {
     }
 
     private fun toNextActivity(url: String? = null){
-        startActivity(WebViewActivity.createIntent(this, url ?: "https://money.com/how-to-make-money-from-home/" ))
+        startActivity(WebViewActivity.createIntent(this, url ?: "https://www.savethestudent.org/make-money/10-quick-cash-injections.html" ))
         finish()
     }
 
